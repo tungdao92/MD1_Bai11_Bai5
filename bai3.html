@@ -8,14 +8,16 @@
 <script>
 let a=[2,3,5,7,12,54,76,12];
 let max=a[0];
+let tong=0
 for (let i = 0; i <a.length ; i++) {
     if (max<a[i]){
         max=a[i]
+        tong +=a[i]
 
     }
 
-}document.write('so lon nhat',max)
-let tongTb=(a[i]+a[i+1])/i;
+}document.write('so lon nhat'+ max +'<br>')
+document.write('TBla'+(tong/a.length))
 </script>
 
 </body>
